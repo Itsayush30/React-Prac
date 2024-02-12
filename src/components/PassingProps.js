@@ -1,7 +1,6 @@
 import React from "react";
-import ChildComponent from "./ChildComponent";
 
-function ParentComponent() {
+export function ParentComponent() {
   return (
     <div>
       <h2>Parent Component</h2>
@@ -10,7 +9,7 @@ function ParentComponent() {
   );
 }
 
-function ChildComponent(props) {
+export function ChildComponent(props) {
   return (
     <div>
       <h3>Child Component</h3>
@@ -19,3 +18,4 @@ function ChildComponent(props) {
     </div>
   );
 }
+
